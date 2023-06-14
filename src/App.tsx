@@ -1,4 +1,5 @@
 import { BurgerMenu } from './components/BurgerMenu/BurgerMenu';
+import { Form } from './components/Form/Form';
 import { Tabs } from './components/Tabs/Tabs';
 import { Typography } from './components/Typography/Typography';
 import { UserInfo } from './components/UserInfo/UserInfo';
@@ -25,8 +26,10 @@ export const App = () => {
             <BurgerMenu/>
             <br />
             <br />
-            <br />
             <Tabs/>
+            <br />
+            <br />
+            <Form/>
         </div>
     );
 }
