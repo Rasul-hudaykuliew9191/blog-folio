@@ -1,5 +1,9 @@
 import { BurgerMenu } from './components/BurgerMenu/BurgerMenu';
+import { CardList } from './components/CardList/CardList';
 import { Form } from './components/Form/Form';
+import { FullCard } from './components/FullCard/FullCard';
+import { MediumCard } from './components/MediumCard/MediumCard';
+import { SmallCard } from './components/SmallCard/SmallCard';
 import { Tabs } from './components/Tabs/Tabs';
 import { Typography } from './components/Typography/Typography';
 import { UserInfo } from './components/UserInfo/UserInfo';
@@ -8,7 +12,7 @@ export const App = () => {
 
     return (
         <div>
-            <UserInfo username="Rasul Hudaykuliyew"/>
+            {/* <UserInfo username="Rasul Hudaykuliyew"/>
             <br />
             <br />
             <br />
@@ -29,7 +33,8 @@ export const App = () => {
             <Tabs/>
             <br />
             <br />
-            <Form/>
+            <Form/> */}
+            <CardList/>
         </div>
     );
 }
